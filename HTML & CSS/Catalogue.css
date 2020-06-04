@@ -1,0 +1,115 @@
+/* Header Logo */
+#logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 30px;
+}
+
+.rounded-circle {
+    width: 75px;
+    height: 75px;
+    border: 2px #45C3F5 solid;
+}
+
+/* Shopping cart button */
+
+#gotocart {
+    background-color: white;
+    border: 2px #45C3F5 solid;
+    border-radius: 8px;
+    color: black;
+    width: 115px;
+    height: 40px;
+   
+}
+
+
+#gotocart a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: black;
+    font-size: 15px;
+    margin-left: -25px;
+   
+} 
+
+#gotocart h6{
+    margin-left: 55px; 
+    margin-top: -23px
+} 
+
+
+/* Main Image */
+section {
+    background-image: url(Images/Catalogue-main.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px #45C3F5 solid;
+}
+
+
+/* Jumbotron */
+.Catalogue-text {
+    color: black;
+    font-size: 18px;
+}
+
+
+/* Grid/card styling */
+
+.cartbtn {
+    background-color: white;
+    border: 2px #45C3F5 solid;
+    border-radius: 8px;
+    padding: 5px;
+    color: black;
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+h4 {
+    color: #45C3F5;
+}
+
+.col-md-4 {
+    background-color: grey;
+    padding-top: 20px;
+}
+
+
+
+.card-body {
+    height: 400px;
+    width: auto;
+    overflow: scroll;
+    box-shadow: 5px 10px;
+}
+
+
+.card-text {
+    background-color: white;
+    width: 100%;
+}
+
+.btn-group {
+    border: 2px #45C3F5 solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.product-review {
+    color: #2E3338;
+
+}
+
+.price {
+    color: red;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+}

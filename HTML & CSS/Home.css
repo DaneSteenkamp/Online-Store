@@ -1,0 +1,109 @@
+/* Header Logo */
+.rounded-circle {
+    width: 75px;
+    height: 75px;
+    border: 2px #45C3F5 solid;
+}
+
+
+#logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 20px;
+}
+
+#cartbtn{
+    background-color: white;
+    border: 2px #45C3F5 solid;
+    border-radius: 8px;
+   padding: 5px;
+}
+
+#cartbtn a{
+    color: black;
+}
+
+/* Jumbotron / Main Pic / Welcome Text */
+.jumbotron {
+    border: 2px #45C3F5 solid;
+    background-image: url(Images/home-main-pic-four.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#container-main {
+    width: 600px;
+}
+
+
+#welcome-text {
+    color: white;
+    font-family: Dodger;
+    font-size: 30px;
+
+}
+
+.welcome-p {
+    color: white;
+    width: 500px;
+}
+
+blockquote {
+    color: white;
+}
+
+
+/* Main Content Headings  */
+h2 {
+    font-family: Dodger;
+
+}
+
+/* Main Content Body */
+#container-body {
+    margin: 20px;
+
+
+
+}
+
+.row {
+    text-align: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.our-story {
+    margin: 10px;
+
+
+}
+
+#brands {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.our-brands {
+    border: 4px black solid;
+    background-image: url(Images/Brands.jpg);
+    background-size: cover;
+    width: 375px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-blog {
+    margin: 10px;
+
+    /* Footer */
+
+}
+
+footer {
+    text-align: center;
+}

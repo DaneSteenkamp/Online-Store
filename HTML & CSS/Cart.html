@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Catalogue.css">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="Cart.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a id="logo-text" class="navbar-brand" href="#">
+            <img class="rounded-circle" src="Images/Logo.jpg" alt="logo">
+            ABSOLUTE AUTOMATION
+        </a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogue.html" target="open in new tab">Catalogue</a>
+                </li>
+            </ul>
+            <button id="gotocart"> <a href="Cart.html">Cart
+                    <img src="Images/Cart.png" height="25" alt="Cart">
+                </a>
+                <h6 id="counter">0</h6>
+            </button>
+        </div>
+    </nav>
+    <span class="shopping-cart">
+        <div class="mainheading">
+            Your Shopping Cart
+        </div>
+        <span class="product-header">
+            <h6 class="product-title">Product</h6>
+            <h6 class="total">Total</h6>
+        </span>
+        <div class="productscontainer">
+        </div>
+    </span>
+    <br>
+    <input type="button" class="submit" value="Submit Order" onclick="promocode()">
+    <div class="congratsbox">
+        <span class="congratsimage">
+            <img src="https://i.pinimg.com/originals/04/3a/fa/043afa3ad106b8ca83ea44b21036d2f9.gif" height="180" alt="Thank you">
+        </span>
+        <h6 class="congratsmessage"></h6>
+    </div>
+    <br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+    <script src="Main.js"></script>
+</body>
+
+</html>
