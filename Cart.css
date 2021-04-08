@@ -1,625 +1,619 @@
 /* resetting main document to have no border padding or margin */
 * {
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
-
 
 /* Start Shopping cart button styles */
 #gotocart {
-    background-color: white;
-    border: 2px #45C3F5 solid;
-    border-radius: 8px;
-    color: black;
-    width: 115px;
-    height: 40px;
-   
+  background-color: white;
+  border: 2px #45c3f5 solid;
+  border-radius: 8px;
+  color: black;
+  width: 115px;
+  height: 40px;
 }
 
-
 #gotocart a {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: black;
-    font-size: 15px;
-    margin-left: -25px;
-   
-} 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  font-size: 15px;
+  margin-left: -25px;
+}
 
-#gotocart h6{
-    margin-left: 55px; 
-    margin-top: -23px
-} 
+#gotocart h6 {
+  margin-left: 55px;
+  margin-top: -23px;
+}
 
 /* End Shopping cart button styles */
 
 /* Start Main shopping cart area styles */
 .shopping-cart {
-    margin-top: 50px;
-
+  margin-top: 50px;
 }
 
 .productscontainer {
-    display: inline-block;
+  display: inline-block;
 }
-
-
 
 .mainheading {
-    margin-top: 50px;
-    margin-left: 2%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    border-bottom: 1px solid black;
-    width: 88%;
+  margin-top: 50px;
+  margin-left: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  width: 88%;
 }
 
-
 .product-header {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    margin-top: 2px;
-    margin-left: 2%;
-    margin-right: 10%;
-    font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 2px;
+  margin-left: 2%;
+  margin-right: 10%;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .pic {
-    height: 100px;
-    width: 100px;
-
+  height: 100px;
+  width: 100px;
 }
 
 .productsinside {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .clearcart {
-    background-color: #2E3338;
-    color: white;
-    border-radius: 5px;
-    width: 100px;
-    font-size: 12px;
-    margin-top: 20px;
-    margin-left: 20px;
+  background-color: #2e3338;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /* Start Main shopping cart area styles */
 
-
 /* Start Delivery option area styles */
 
 .deliveryoption {
-    display: inline-block;
-    margin-top: 20px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .tick {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
-
 .addbtn {
-    background-color: #2E3338;
-    color: white;
-    border-radius: 5px;
-    width: 100px;
-    font-size: 12px;
-    margin-bottom: 40px;
+  background-color: #2e3338;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 12px;
+  margin-bottom: 40px;
 }
 
 /* End Delivery option area styles */
 
 /* Start Promo area styles */
 #maindrop {
-    list-style-type: none;
-    font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    background-color: #45C3F5;
-    color: white;
-    padding: 0;
-    text-align: center;
-    cursor: pointer;
-    width: 20%;
-
-
-
+  list-style-type: none;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #45c3f5;
+  color: white;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
 }
 
 #subdrop {
-    list-style-type: none;
-    font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    background-color: #2E3338;
-    color: white;
-    padding: 0;
-    cursor: pointer;
-    text-align: center;
-    display: none;
-
+  list-style-type: none;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #2e3338;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  display: none;
 }
 
 .Promo {
-    border-bottom: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #promocode {
-    border: 1px solid black;
-    width: 100px;
-    height: 20px;
+  border: 1px solid black;
+  width: 100px;
+  height: 20px;
 }
 
 .ddheader {
-    width: 250px;
-    margin-top: 10px;
-
+  width: 250px;
+  margin-top: 10px;
 }
 
 .applybtn {
-    background-color: #2E3338;
-    color: white;
-    border-radius: 5px;
-    width: 100px;
-    font-size: 12px;
-    margin-left: 20px;
-    margin-bottom: 5px;
+  background-color: #2e3338;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
 
 /* End Promo area styles */
 
 /* Start Shopping Cart Total area styles */
 .shoppingCarttotalContainer {
-    margin-top: 5px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid black;
-    width: 88%;
-    margin-left: 2%;
-    padding-bottom: 5px;
-    display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  width: 88%;
+  margin-left: 2%;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 
 .shoppingCarttotaltitle {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-top: 20px;
 }
 
 .shoppingCarttotal {
-
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .newshoppingCarttotal {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-bottom: 20px;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .bigshoppingCarttotal {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-bottom: 20px;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .discount10Carttotal {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
 }
 
 .discount20Carttotal {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
 }
 
 .grandshoppingCarttotal {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-bottom: 20px;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .grandshoppingCarttotal2 {
-    display: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    color: red;
-    margin-bottom: 20px;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 20px;
 }
 
 /* End Shopping Cart Total area styles */
 
-
 /* Start Submit order area */
 .congratscontainer {
-    height: 200px;
+  height: 200px;
 }
 
 .congratsbox {
-    margin-left: 20px;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    width: 88%;
-    border: 0px solid #45C3F5;
+  margin-left: 20px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 88%;
+  border: 0px solid #45c3f5;
 }
 
 .congratsimage {
-
-    height: 200px;
-    width: 40.2%;
-    display: none;
+  height: 200px;
+  width: 40.2%;
+  display: none;
 }
 
 .congratsmessage {
-    margin-left: -50px;
-    margin-top: 75px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    display: none;
-    color: #45C3F5;
+  margin-left: -50px;
+  margin-top: 75px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  display: none;
+  color: #45c3f5;
 }
 
 /* End Submit order area */
 
 /* Start of Media queries  */
 @media (min-width: 300px) {
+  #logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 12px;
+  }
 
-    #logo-text {
-        font-family: Dodger;
-        color: white;
-        font-size: 12px;
-    }
+  .rounded-circle {
+    width: 50px;
+    height: 50px;
+    border: 2px #45c3f5 solid;
+  }
 
-    .rounded-circle {
-        width: 50px;
-        height: 50px;
-        border: 2px #45C3F5 solid;
-    }
+  .product-title {
+    margin-top: 8px;
+  }
 
+  .total {
+    opacity: 0%;
+  }
 
-    .product-title {
-        margin-top: 8px;
-    }
+  .productsinside {
+    margin-top: 20px;
+    margin-left: 40px;
+    border-bottom: 1px solid black;
+  }
 
-    .total {
-        opacity: 0%;
-    }
+  .pic {
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .productsinside {
+  .productname {
+    margin-left: 0px;
+    width: 100px;
+    font-size: 12px;
+  }
 
-        margin-top: 20px;
-        margin-left: 40px;
-        border-bottom: 1px solid black;
-    }
+  .price {
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .pic {
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .vat {
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .productname {
-        margin-left: 0px;
-        width: 100px;
-        font-size: 12px;
-    }
+  .input {
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .price {
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .mastertotal {
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .vat {
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .deliveryoption {
+    margin-left: 20px;
+  }
 
+  .congratsmessage {
+    display: none;
+  }
 
-    .input {
-        border: 1px solid black;
-        width: 50px;
-        text-align: center;
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .shoppingCarttotalContainer {
+    margin-left: 20px;
+  }
 
-    .mastertotal {
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .tick {
+    margin-left: 100px;
+  }
 
-    .deliveryoption {
-        margin-left: 20px;
-    }
-
-    .congratsmessage {
-        display: none;
-    }
-
-    .shoppingCarttotalContainer {
-        margin-left: 20px;
-    }
-
-    .tick {
-        margin-left: 100px;
-    }
-
-    .submit {
-        opacity: 0%;
-    }
-
-
+  .submit {
+    opacity: 0%;
+  }
 }
 
-
 @media (min-width: 500px) {
-    #logo-text {
-        font-family: Dodger;
-        color: white;
-        font-size: 20px;
-    }
+  #logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 20px;
+  }
 
-    .rounded-circle {
-        width: 75px;
-        height: 75px;
-        border: 2px #45C3F5 solid;
-    }
+  .rounded-circle {
+    width: 75px;
+    height: 75px;
+    border: 2px #45c3f5 solid;
+  }
 
-    .product-title {
-        margin-top: 8px;
-    }
+  .product-title {
+    margin-top: 8px;
+  }
 
-    .total {
-        opacity: 100%;
-        margin-left: 300px;
-        margin-top: 8px;
-    }
+  .total {
+    opacity: 100%;
+    margin-left: 300px;
+    margin-top: 8px;
+  }
 
-    .productsinside {
-        height: 150px;
-        display: grid;
-        grid-template-columns: 16% 16% 16% 16% 16% 16%;
-        margin-top: 20px;
-        border-bottom: 1px solid black;
-    }
+  .productsinside {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+  }
 
-    .pic {
-        margin-left: -35px;
-        margin-top: -20px;
-    }
+  .pic {
+    margin-left: -35px;
+    margin-top: -20px;
+  }
 
-    .productname {
-        margin-left: 5px;
-        width: 100px;
-        font-size: 12px;
-    }
+  .productname {
+    margin-left: 5px;
+    width: 100px;
+    font-size: 12px;
+  }
 
-    .price {
-        margin-left: 40px;
-        font-size: 12px;
-    }
+  .price {
+    margin-left: 40px;
+    font-size: 12px;
+  }
 
-    .vat {
-        margin-left: 20px;
-        font-size: 15px;
-    }
+  .vat {
+    margin-left: 20px;
+    font-size: 15px;
+  }
 
-    .input {
-        border: 1px solid black;
-        width: 50px;
-        text-align: center;
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .input {
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .mastertotal {
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .mastertotal {
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .tick {
-        margin-left: 100px;
-    }
+  .tick {
+    margin-left: 100px;
+  }
 
-    .submit {
-        opacity: 0%;
-    }
-
+  .submit {
+    opacity: 0%;
+  }
 }
 
 @media (min-width: 1200px) {
-    #logo-text {
-        font-family: Dodger;
-        color: white;
-        font-size: 20px;
-    }
+  #logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 20px;
+  }
 
-    .rounded-circle {
-        width: 75px;
-        height: 75px;
-        border: 2px #45C3F5 solid;
-    }
+  .rounded-circle {
+    width: 75px;
+    height: 75px;
+    border: 2px #45c3f5 solid;
+  }
 
-    .product-title {
-        margin-top: 8px;
-    }
+  .product-title {
+    margin-top: 8px;
+  }
 
-    .total {
-        opacity: 100%;
-        margin-left: 800px;
-        margin-top: 8px;
-    }
+  .total {
+    opacity: 100%;
+    margin-left: 800px;
+    margin-top: 8px;
+  }
 
-    .productsinside {
-        height: 150px;
-        display: grid;
-        grid-template-columns: 16% 16% 16% 16% 16% 16%;
-        margin-top: 20px;
-        border-bottom: 1px solid black;
+  .productsinside {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+  }
 
+  .pic {
+    margin-left: -35px;
+    margin-top: -20px;
+    margin-top: 30px;
+  }
 
-    }
+  .productname {
+    margin-left: 5px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 
-    .pic {
-        margin-left: -35px;
-        margin-top: -20px;
-        margin-top: 30px;
-    }
+  .price {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 
-    .productname {
-        margin-left: 5px;
-        width: 100px;
-        margin-top: 30px;
-        font-size: 15px;
-    }
+  .vat {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 
-    .price {
-        margin-left: 40px;
-        margin-top: 30px;
-        font-size: 15px;
-    }
+  .input {
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 12px;
+  }
 
-    .vat {
-        margin-left: 20px;
-        margin-top: 30px;
-        font-size: 15px;
-    }
+  .mastertotal {
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 
-    .input {
-        border: 1px solid black;
-        width: 60px;
-        text-align: center;
-        margin-left: 0px;
-        font-size: 12px;
-    }
+  .tick {
+    margin-left: 100px;
+  }
 
-    .mastertotal {
-        margin-left: 250px;
-        margin-top: 30px;
-        font-size: 15px;
-    }
-
-    .tick {
-        margin-left: 100px;
-    }
-
-    .submit {
-        background-color: #2E3338;
-        color: white;
-        border-radius: 5px;
-        width: 100px;
-        font-size: 12px;
-        margin-bottom: 40px;
-        margin-left: 20px;
-        opacity: 100%;
-        margin-bottom: 50px;
-    }
+  .submit {
+    background-color: #2e3338;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    opacity: 100%;
+    margin-bottom: 50px;
+  }
 }
-
 
 @media (min-width: 1900px) {
+  #logo-text {
+    font-family: Dodger;
+    color: white;
+    font-size: 25px;
+  }
 
-    #logo-text {
-        font-family: Dodger;
-        color: white;
-        font-size: 25px;
-    }
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+    border: 2px #45c3f5 solid;
+  }
 
-    .rounded-circle {
-        width: 100px;
-        height: 100px;
-        border: 2px #45C3F5 solid;
-    }
+  .product-title {
+    margin-top: 8px;
+  }
 
-    .product-title {
-        margin-top: 8px;
-    }
+  .total {
+    margin-left: 1250px;
+    margin-top: 8px;
+  }
 
-    .total {
-        margin-left: 1250px;
-        margin-top: 8px;
-    }
+  .productsinside {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
 
-    .productsinside {
-        height: 150px;
-        display: grid;
-        grid-template-columns: 16% 16% 16% 16% 16% 16%;
-        margin-top: 40px;
-        border-bottom: 1px solid black;
-        margin-bottom: 20px;
-    }
+  .pic {
+    height: 200px;
+    width: 200px;
+    margin-top: -40px;
+  }
 
-    .pic {
-        height: 200px;
-        width: 200px;
-        margin-top: -40px;
-    }
+  .productname {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 300px;
+  }
 
-    .productname {
-        margin-top: 50px;
-        font-size: 20px;
-        margin-left: 20px;
-        width: 300px;
-    }
+  .price {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
 
-    .price {
-        margin-left: 100px;
-        margin-top: 50px;
-        font-size: 20px;
-    }
+  .vat {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
 
-    .vat {
-        margin-left: 150px;
-        margin-top: 50px;
-        font-size: 20px;
-    }
+  .input {
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 70px;
+    font-size: 12px;
+  }
 
-    .input {
-        border: 1px solid black;
-        width: 60px;
-        text-align: center;
-        margin-left: 125px;
-        margin-top: 70px;
-        font-size: 12px;
-    }
+  .mastertotal {
+    margin-left: 225px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
 
-    .mastertotal {
-        margin-left: 225px;
-        margin-top: 50px;
-        font-size: 20px;
-    }
-
-    .submit {
-        background-color: #2E3338;
-        color: white;
-        border-radius: 5px;
-        width: 100px;
-        font-size: 12px;
-        margin-bottom: 40px;
-        margin-left: 20px;
-        opacity: 100%;
-        margin-bottom: 50px;
-    }
+  .submit {
+    background-color: #2e3338;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    opacity: 100%;
+    margin-bottom: 50px;
+  }
 }
-
 
 /* End of Media queries  */
